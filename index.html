@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <section class="section">
         <div class="container">
             <div class="columns">
@@ -20,34 +21,38 @@
                                 <img src="./img/slingshot.jpg" alt="Slingshot pointing to a watermelon">
                             </figure>
                         </div>
-                        <header class="card-header">
-                            <p class="card-header-title">
-                                Slingshot Score Keeper
-                            </p>
-                        </header>
-                        <div class="card-content">
-                            <div class="content">
-                                <h1 class="title is-1"><span id="player1">0</span> to <span id="player2">0</span></h1>
-                                <p class="subtitle">Use the buttons below to keep score!</p>
-                                <label for="select" class="label is-large is-inline">Playing to:</label>
-                                <div class="select is-rounded">
-                                    <select name="" id="select">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
+                        <main>
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Slingshot Score Keeper
+                                </p>
+                            </header>
+
+                            <div class="card-content">
+                                <div class="content">
+                                    <h1 class="title is-1"><span id="player1">0</span> to <span id="player2">0</span>
+                                    </h1>
+                                    <p class="subtitle">Use the buttons below to keep score!</p>
+                                    <label for="select" class="label is-large is-inline">Playing to:</label>
+                                    <div class="select is-rounded">
+                                        <select name="Max Score" id="select">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <footer class="card-footer">
-                            <button id="p1Button" class="is-primary button card-footer-item is-large"> +1 Player
-                                One</button>
-                            <button id="p2Button" class="is-info button card-footer-item is-large"> +1 Player
-                                Two</button>
-                            <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
-                        </footer>
+                            <footer class="card-footer">
+                                <button id="p1Button" class="is-primary button card-footer-item is-large"> +1 Player
+                                    One</button>
+                                <button id="p2Button" class="is-info button card-footer-item is-large"> +1 Player
+                                    Two</button>
+                                <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+                            </footer>
+                        </main>
                     </div>
                 </div>
             </div>
